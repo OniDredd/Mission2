@@ -5,23 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Main CSS -->
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="dark.css" />
     <!-- Awesome Fonts Icons -->
     <link
       rel="stylesheet"
       type="text/css"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script src="script.js"></script>
     <title>MissionOne</title>
   </head>
 
   <body>
-    <main class="landing">
+    <main class="landing" id="landingSection">
       <!-- Navigation -->
       <header class="header">
-        <nav class="nav_wrapper">
-          <button class="navigation">MENU</button>
-        </nav>
+        <!-- <nav class="nav_wrapper"> -->
+          <!-- <button class="navigation">MENU</button> -->
+        <!-- </nav> -->
+        <div class="top_left">
+          <button id="darkMode" onclick="toggleTheme()">LIGHT</button>
+        </div>
       </header>
       <!-- Middle Container -->
       <div class="middle_content">

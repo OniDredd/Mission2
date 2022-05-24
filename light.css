@@ -1,15 +1,15 @@
 body {
     display: flex;
     flex-direction: column;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     margin: 0px;
     padding: 0px;
 }
 button, .navigation{
-    background-color: #00000000;
-    color: white;
+    background-color: #001aff;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px 30px;
     border:1px solid #001aff;
@@ -80,7 +80,7 @@ button, .navigation{
     left: 10px;
     z-index: 1;
     margin: 10px;
-    color: #ffffff;
+    color: #000000;
     font-style: italic ;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -130,6 +130,9 @@ input[type="submit"]:hover {
     border-color: #001aff;
 }
 @media screen and (max-width: 768px) {
+    button, .navigation {
+        display: none;
+    }
     .logo {
         height: auto;
         padding: 2vw;
