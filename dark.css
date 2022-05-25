@@ -129,6 +129,12 @@ input[type="submit"]:hover {
     background-color: white;
     border-color: #001aff;
 }
+.clock {
+    color:#001aff;
+    font-size: 200px;
+    letter-spacing: 7px;
+}
+
 @media screen and (max-width: 768px) {
     button, .navigation {
         display: none;
