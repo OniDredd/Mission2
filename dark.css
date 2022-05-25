@@ -15,6 +15,11 @@ button, .navigation{
     border:1px solid #001aff;
     transition: 300ms;
 }
+.logo {
+    background-image: url(logo.svg);
+    background-repeat: no-repeat;
+    
+}
 .navigation:hover {
     background-color: #001aff;
 }
