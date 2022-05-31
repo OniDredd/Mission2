@@ -139,11 +139,6 @@ input[type="submit"]:hover {
     button, .navigation {
         display: none;
     }
-    .logo {
-        height: auto;
-        padding: 2vw;
-        margin: 0px;
-    }
     .coming_soon {
         font-size: 10vw;
         letter-spacing: 2px;
