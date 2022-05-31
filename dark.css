@@ -65,12 +65,15 @@ button, .navigation{
     background-position: center;
     background-size: contain;
     height: 12vh;
+    margin: 0px 15px 0px 15px;
 }
 .coming_soon {
     color: #001aff;
     margin: auto;
     font-size: 70px;
     font-weight: 800;
+    text-align: center;
+    text-transform: capitalize;
     text-align: center;
     letter-spacing: 10px;
 }
