@@ -15,11 +15,6 @@ button, .navigation{
     border:1px solid #001aff;
     transition: 300ms;
 }
-.logo {
-    background-image: url(logo2.svg);
-    background-repeat: no-repeat;
-    align-items: center;
-}
 .navigation:hover {
     background-color: #001aff;
 }
@@ -63,7 +58,12 @@ button, .navigation{
     margin-top: 2%;
 }
 .logo {
-    width: max-content;
+    position: relative;
+    background-image: url(logo2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 12vh;
 }
 .coming_soon {
     color: #001aff;
@@ -133,11 +133,6 @@ input[type="submit"]:hover {
     color: #001aff;
     background-color: white;
     border-color: #001aff;
-}
-.clock {
-    color:#001aff;
-    font-size: 200px;
-    letter-spacing: 7px;
 }
 @media screen and (max-width: 768px) {
     button, .navigation {
